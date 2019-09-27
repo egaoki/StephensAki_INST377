@@ -58,16 +58,10 @@ i {
   color: #b063c5;
 }
 
+li {
+  color: #404040;
+}
+
 .column-small {
-  /*width: 34%;*/
   font-size: 1rem;
-}
-
-.column-large {
-  width: 50%;
-  margin-top: 5rem;
-}
-
-.column-2 {
-  margin-top: 5rem;
 }
