@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+section.navbar {
+  padding: 20px 0;
+  background-color: #1a2849;
+  position: fixed;
+  width: 100%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+
+.container {
+  width: 1200px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+section.hero {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+img {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  width: 20rem;
+  height: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+section.skills{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+strong {
+  color: #505bda;
+}
+
+i {
+  color: #b063c5;
+}
+
+.column-small {
+  /*width: 34%;*/
+  font-size: 1rem;
+}
+
+.column-large {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.column-2 {
+  margin-top: 5rem;
+}
