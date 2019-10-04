@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sample HTML Demonstration Page</title>
+
+  <style>
+  doc {
+  background: green;
+  height: 960px;
+  width: 480px;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+newsline {
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 400;
+}
+
+wrapper {
+  width: 60%;
+  height: 100vh;
+  width: 22vh;
+  background: grey;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.head a,
+.head {
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+.second_container {
+  background: pink;
+  height: 150px;
+}
+
+.interior {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+.link {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.red {
+  background: red;
+  margin: 1rem;
+  height: 100px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.red h4 {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.red2 {
+  background: red;
+  height: 100px;
+  width: 350px;
+
+}
+
+.red2 h4 {
+  color: red;
+
+}
+
+.textbox {
+  height: 100px;
+  width: 350px;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+
+}
+
+.textbox h4 {
+  padding-top: 2.5rem;
+}
+
+.green {
+  background: red;
+  cursor: pointer;
+}
+
+.second {
+  background: lightblue;
+  text-align: center;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="head" id="start">
+      <h1>Sample Header</h1>
+    </div>
+    <div class="link">
+      <a href="www.google.com">anchor tag to nowhere </a>
+    </div>
+    <div class="second_container">
+      <div class="interior">
+      <h3>hello</h3>
+    </div>
+    </div>
+    <div class="container">
+      <div class="red">
+        <h4>click me i'm great</h4>
+      </div>
+      <div class="red2">
+        <h4>test</h4>
+      </div>
+    </div>
+      <div class="second textbox">
+          <h4>World #2</h4>
+    </div>
+
+  </div>
+</body>
+
+</html>
